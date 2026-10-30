@@ -4,7 +4,7 @@
  */
 
 import React, { useState } from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import { Header } from './components/Header.tsx';
 import { Footer } from './components/Footer.tsx';
 import { QuoteModal } from './components/QuoteModal.tsx';
@@ -37,7 +37,7 @@ export default function App() {
   };
 
   return (
-    <BrowserRouter>
+    <HashRouter>
       <ScrollToTop />
       <div className="min-h-screen flex flex-col bg-[#F4F6F8] font-sans antialiased text-slate-800">
         {/* Sticky Header with Brand Wordmark, Nav Links & CTA */}
@@ -93,6 +93,6 @@ export default function App() {
           initialCategory={selectedQuoteCategory}
         />
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }

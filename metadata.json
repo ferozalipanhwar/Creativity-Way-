@@ -2,5 +2,7 @@
   "name": "Creativity Way - Industrial Storage & Racking Solutions UAE",
   "description": "Creativity Way General Trading LLC - Leading supplier and installer of industrial pallet racking, heavy duty racks, supermarket shelving, and mezzanine floors in the UAE.",
   "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
 }

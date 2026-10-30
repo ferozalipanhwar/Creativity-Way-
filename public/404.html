@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Creativity Way | Redirecting...</title>
+    <script>
+      // Redirect direct 404 links back to root hash route
+      var path = window.location.pathname;
+      var repo = path.split('/')[1] || '';
+      var subPath = path.substring(repo.length + 1);
+      if (subPath && subPath !== '/') {
+        window.location.replace('/' + repo + '/#' + subPath);
+      } else {
+        window.location.replace('/' + repo + '/');
+      }
+    </script>
+    <meta http-equiv="refresh" content="0;URL='./'">
+  </head>
+  <body>
+    <p>Redirecting to Creativity Way...</p>
+  </body>
+</html>
