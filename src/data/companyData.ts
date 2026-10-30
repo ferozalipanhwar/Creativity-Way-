@@ -1,12 +1,18 @@
 import { ProductItem, IndustryItem, GalleryProject } from '../types/index.ts';
 
-// Product Images from generation
+import heroWarehouse from '../assets/images/hero_warehouse_racks_1793371468197.jpg';
+import palletRacking from '../assets/images/pallet_racking_system_1793371469140.jpg';
+import supermarketShelving from '../assets/images/supermarket_shelving_1793371469750.jpg';
+import mezzanineFloor from '../assets/images/mezzanine_storage_floor_1793371470476.jpg';
+import wireMeshAndDucking from '../assets/images/wire_mesh_ducking_racks_1793371531686.jpg';
+
+// Bundled Product Images for production & development
 export const IMAGES = {
-  heroWarehouse: '/src/assets/images/hero_warehouse_racks_1793371468197.jpg',
-  palletRacking: '/src/assets/images/pallet_racking_system_1793371469140.jpg',
-  supermarketShelving: '/src/assets/images/supermarket_shelving_1793371469750.jpg',
-  mezzanineFloor: '/src/assets/images/mezzanine_storage_floor_1793371470476.jpg',
-  wireMeshAndDucking: '/src/assets/images/wire_mesh_ducking_racks_1793371531686.jpg',
+  heroWarehouse,
+  palletRacking,
+  supermarketShelving,
+  mezzanineFloor,
+  wireMeshAndDucking,
 };
 
 export const COMPANY_INFO = {
